@@ -11,7 +11,7 @@ go build -o openai-cli main.go
 OR use the openai-cli executable (ELF file for Linux Users)
 
 ### Setup
-A config.json file has to be placed in the same directory as the executable. The file contains both `__Secure-next-auth.session-token` (Session Token) and `mixpaneltoken`, both are cookies that should be copied from user browser after logging in. 
+A `config.json` file has to be placed in the same directory as the executable. The file contains both `__Secure-next-auth.session-token` (Session Token) and `mixpaneltoken`, both are cookies that should be copied from user browser after logging in. 
 
 Here's an example of the json file
 ```
